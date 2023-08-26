@@ -1,20 +1,21 @@
 # Golang Masker
 
-[![Build Status](https://travis-ci.org/ggwhite/go-masker.svg?branch=master)](https://travis-ci.org/ggwhite/go-masker)
-[![codecov](https://codecov.io/gh/ggwhite/go-masker/branch/master/graph/badge.svg)](https://codecov.io/gh/ggwhite/go-masker)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ggwhite/go-masker)](https://goreportcard.com/report/github.com/ggwhite/go-masker)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ggwhite/go-masker/blob/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/ggwhite/go-masker?status.svg)](https://godoc.org/github.com/ggwhite/go-masker)
-[![Release](https://img.shields.io/github/release/ggwhite/go-masker.svg?style=flat-square)](https://github.com/ggwhite/go-masker/releases/latest)
+![Build Status](https://github.com/ruiztulio/go-masker/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ggwhite/go-masker)](https://goreportcard.com/report/github.com/ruiztulio/go-masker)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ruiztulio/go-masker/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/ggwhite/go-masker?status.svg)](https://godoc.org/github.com/ruiztulio/go-masker)
+[![Release](https://img.shields.io/github/release/ruiztulio/go-masker.svg?style=flat-square)](https://github.com/ruiztulio/go-masker/releases/latest)
 
 Golang Masker is a simple utility of creating a mask for sensitive information.
+
+**Note**: This is a fork of https://github.com/ggwhite/go-masker, all the credits to the original author, I just foked it and updated some things.
 
 * [Getting Started](#Getting-Started)
 
 # Getting Started
 
 ```
-$ go get -u github.com/ggwhite/go-masker
+$ go get -u github.com/ruiztulio/go-masker
 ```
 
 ## Demo
@@ -25,7 +26,7 @@ There are two ways to get a masker instance:
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 func main() {
@@ -40,7 +41,7 @@ func main() {
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 func main() {
@@ -73,7 +74,7 @@ func main() {
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 func main() {
@@ -94,7 +95,7 @@ A12345****
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 func main() {
@@ -123,7 +124,7 @@ package main
 
 import (
 	"log"
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 type Foo struct {
@@ -155,7 +156,7 @@ err = <nil>
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 type Foo struct {
@@ -197,7 +198,7 @@ err = <nil>
 package main
 
 import (
-	masker "github.com/ggwhite/go-masker"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 type Foo struct {

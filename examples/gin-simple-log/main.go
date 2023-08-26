@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	masker "github.com/ggwhite/go-masker"
 	"github.com/gin-gonic/gin"
+	masker "github.com/ruiztulio/go-masker"
 )
 
 func hello() func(c *gin.Context) {
