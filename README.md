@@ -1,6 +1,7 @@
 # Golang Masker
 
 ![Build Status](https://github.com/ruiztulio/go-masker/actions/workflows/go.yml/badge.svg)
+![GoSec](https://github.com/ruiztulio/go-masker/actions/workflows/gosec.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ggwhite/go-masker)](https://goreportcard.com/report/github.com/ruiztulio/go-masker)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ruiztulio/go-masker/blob/master/LICENSE)
 [![GoDoc](https://godoc.org/github.com/ggwhite/go-masker?status.svg)](https://godoc.org/github.com/ruiztulio/go-masker)
